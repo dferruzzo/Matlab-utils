@@ -8,7 +8,13 @@ Este repositório contém diversas utilidades desenvolvidas em Matlab para o tra
 
 ## Estrutura do Repositório
 
-Como não foi possível obter a lista de arquivos diretamente, por favor adicione aqui uma descrição da estrutura dos principais arquivos e diretórios do repositório.
+* `amp_detector.m` detetor de amplitude de sinal senoidal.
+* `bode_plots.m` gera diagramas de Bode.
+* `critical_points.m` detecta pontos críticos de um sinal.
+* `desfasagem.m` determinal a desfasagem entre duas sinais.
+* `freq.m` determina a frequência de um sinal senoidal.
+* `rk4.m` Runge-Kutta de ordem 4.
+* `zero_cross.m` deteta os cruzamentos por zero de um sinal.
 
 ## Uso
 
