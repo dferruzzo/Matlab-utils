@@ -1,5 +1,6 @@
 function [amp, amp_std] = amp_detector(signal)
 	% Calcula a amplitude de um sinal senoidal.
+	% Calcula a diferença entre o valor máximo e o valor mínimo dividido por 2.
 	[pc, minmax] = critical_points(signal); % pontos criticos e se min ou max 
 	pc_min = pc(minmax==1);
 	pc_max = pc(minmax==-1);
